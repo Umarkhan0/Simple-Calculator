@@ -1,0 +1,39 @@
+.main{
+    background-color: black;
+    width: 320px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.input{
+  border-width: 2px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 230px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  text-align: right;
+}
+.button{
+    height: 40px;
+    width: 40px;
+    margin: 30px 10px 10px 7px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(95, 103, 109);
+    color: white;
+    font-size: larger;
+}
+.color{
+    background-color: orange;
+}.opretor{
+    background-color: rgb(227, 213, 186);
+    color: black;
+}.icon{
+    color: white;
+    margin: 20px;
+}.dootButton{
+    font-weight: bolder;
+    color: white;
+}

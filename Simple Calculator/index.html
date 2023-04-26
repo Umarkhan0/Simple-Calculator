@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <center>
+    <div class="main">
+        <section>
+            <input type="text" class="input" disabled id="input">
+        </section>
+    <section>
+        <button class="button opretor"onclick="deleteValue()" value="AC">AC</button>
+        <button class="button opretor" value="C" onclick="deleteLastValue(value)" >C</button>
+        <button class="button opretor" value="%" onclick="oprator(value)">%</button>
+        <button class="button color" value="/" onclick="oprator(value)"> ÷</button>
+    </section>
+    <section>
+        <button class="button" onclick="buttonsFunction(7)">7</button>
+        <button class="button" onclick="buttonsFunction(8)">8</button>
+        <button class="button" onclick="buttonsFunction(9)">9</button>
+        <button class="button color" value="*" onclick="oprator(value)">×</button>
+
+    </section>
+    <section>
+        <button class="button" onclick="buttonsFunction(4)">4</button>
+        <button class="button" onclick="buttonsFunction(5)">5</button>
+        <button class="button" onclick="buttonsFunction(6)">6</button>
+        <button class="button color" value="-" onclick="buttonsFunction(value)">-</button>
+    </section>
+    <section>
+        <button class="button" onclick="buttonsFunction(1)" value="1">1</button>
+        <button class="button" onclick="buttonsFunction(2)">2</button>
+        <button class="button" onclick="buttonsFunction(3)">3</button>
+        <button class="button color" value="+" onclick="buttonsFunction(value)">+</button>
+    </section>
+    <section>
+        <button class="button" onclick="buttonsFunction(0)">0</button>
+        <button class="button" value="00" onclick="oprator(value)">00</button>
+        <button class="button"onclick="eqval()">=</button>
+        <button class="button color dootButton" value="." onclick="oprator(value)">.</button>
+    </section>
+    <section>
+    <a href="https://github.com/Umarkhan0">
+        <i class="fa-brands fa-github icon fa-2x"></i>
+            </a>
+   <a href="https://www.facebook.com/profile.php?id=100087112165263&mibextid=ZbWKwL">
+     <i class="fa-brands fa-facebook icon fa-2x"></i>
+            </a>
+   <a href="https://api.whatsapp.com/send?phone=+923152805977"> 
+        <i class="fa-brands fa-whatsapp icon fa-2x"></i>
+        </a>
+    </section>
+    </center>
+            <script src="app.js"></script>
+</body>
+</html>
